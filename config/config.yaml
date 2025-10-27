@@ -1,0 +1,12 @@
+discord:
+  guild_id: 664237144600215581
+  channels:
+    bot: "bot"
+    voice: "通話履歴"
+    welcome: "welcome"
+  tokens:
+    kenny_bot: ""   # ここは空のまま運用推奨（.env を優先）
+  forward_image:
+    target_user_id:
+    target_username: "rolasama"
+
