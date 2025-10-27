@@ -120,7 +120,7 @@ bot:
 ## トラブルシューティング (Troubleshooting)
 
 ### ボットがオンラインにならない
-- Discord tokenが正しいか確認
+- Discordトークンが正しいか確認
 - `.env`ファイルが正しく配置されているか確認
 
 ### Ollamaに接続できない
@@ -129,7 +129,7 @@ bot:
 - ファイアウォール設定を確認
 
 ### 応答が遅い
-- より軽量なモデルを使用: `ollama pull llama2:7b`
+- より軽量なモデルを使用: `ollama pull phi` または `ollama pull tinyllama`
 - `max_tokens`を調整
 - GPUを使用している場合は設定を確認
 
